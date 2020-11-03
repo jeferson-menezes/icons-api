@@ -1,0 +1,1 @@
+INSERT INTO `icons`.`tag` (`nome`) VALUES ('user')
