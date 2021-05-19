@@ -18,7 +18,8 @@ public class IconsApiApplication {
 		return new WebMvcConfigurer() {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
-				registry.addMapping("/**").allowedOrigins("http://localhost:8080");
+				registry.addMapping("/**").allowedMethods("*")
+						.allowedOrigins("http://192.168.15.100:8080");
 			}
 		};
 	}
