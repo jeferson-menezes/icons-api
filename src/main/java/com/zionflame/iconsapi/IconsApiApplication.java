@@ -19,7 +19,7 @@ public class IconsApiApplication {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
 				registry.addMapping("/**").allowedMethods("*")
-						.allowedOrigins("http://192.168.15.100:8080");
+				.allowedOrigins("http://localhost:8080", "http://192.168.15.100:8080");
 			}
 		};
 	}
