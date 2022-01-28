@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>com.zionflame</groupId>
 	<artifactId>icons-api</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>icons-api</name>
 	<description>Api para biblioteca de icons</description>
 
@@ -87,6 +87,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>icons</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
